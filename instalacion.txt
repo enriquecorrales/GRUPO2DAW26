@@ -1,0 +1,117 @@
+
+# INSTALACIÓN Y DESPLIEGUE DEL PROYECTO ALIMENTOS
+
+## Integrante 2
+
+### 1. Acceso al hosting mediante SSH
+
+Para comenzar el despliegue, accedí a mi cuenta de Alwaysdata mediante SSH utilizando el siguiente comando:
+
+```bash
+ssh pabloruiz@ssh-pabloruiz.alwaysdata.net
+```
+
+Una vez conectado, accedí al directorio personal:
+
+```bash
+cd ~
+```
+
+### 2. Clonación del repositorio de GitHub
+
+Se utilizó Git para descargar el proyecto del repositorio público del grupo:
+
+Repositorio:
+https://github.com/enriquecorrales/GRUPO2DAW2026.git
+
+Comandos utilizados:
+
+```bash
+mkdir ~/proyecto
+cd ~/proyecto
+git clone https://github.com/enriquecorrales/GRUPO2DAW2026.git .
+```
+
+De esta forma se descargaron los archivos del proyecto en el hosting.
+
+### 3. Comprobación y actualización del proyecto
+
+Para comprobar que los archivos se habían descargado correctamente, utilicé los siguientes comandos:
+
+```bash
+ls -la
+ls -la app/
+ls -la web/
+```
+
+Para consultar el estado del repositorio:
+
+```bash
+git status
+```
+
+Para actualizar los archivos cuando los compañeros realizaron nuevas aportaciones a GitHub:
+
+```bash
+git pull origin main
+```
+
+### 4. Creación de la base de datos
+
+Desde el panel de administración de Alwaysdata, en el apartado Databases → MySQL, creé la siguiente base de datos:
+
+- Nombre: pabloruiz_alimentos22026
+- Usuario: pabloruiz_alimentos
+
+Posteriormente, ejecuté mediante SQL la creación de la tabla `alimentos` con los campos solicitados en la práctica:
+
+- id
+- nombre
+- energia
+- proteina
+- hidratocarbono
+- fibra
+- grasatotal
+
+El campo `id` se estableció como clave primaria y autoincremental.
+
+### 5. Configuración de la conexión a la base de datos
+
+Se configuró el archivo `app/Config.php` para conectar la aplicación con la base de datos de Alwaysdata.
+
+Los datos utilizados fueron:
+
+- Servidor MySQL: mysql-pabloruiz.alwaysdata.net
+- Base de datos: pabloruiz_alimentos22026
+- Usuario: pabloruiz_alimentos
+- Contraseña: la configurada en Alwaysdata.
+
+### 6. Configuración del directorio público
+
+Desde el panel de Alwaysdata, en el apartado Web → Sites, configuré el directorio raíz del sitio web para que apuntase a la carpeta pública del proyecto:
+
+`/home/pabloruiz/proyecto/web`
+
+De esta manera, el navegador accede al archivo `index.php` y los archivos del back-end permanecen fuera del directorio público.
+
+### 7. Comprobación final
+
+Finalmente, accedí a la dirección web del proyecto para comprobar su funcionamiento.
+
+Se comprobó que:
+
+- La página principal cargaba correctamente.
+- Se podían consultar los alimentos.
+- La conexión con la base de datos funcionaba correctamente.
+
+El despliegue se realizó correctamente y la aplicación quedó disponible en Alwaysdata.
+
+---
+
+## Datos del despliegue
+
+- Integrante: 2
+- Hosting: Alwaysdata
+- Repositorio GitHub: https://github.com/enriquecorrales/GRUPO2DAW2026.git
+- Carpeta del proyecto: `/home/pabloruiz/proyecto`
+- Carpeta pública: `/home/pabloruiz/proyecto/web`
