@@ -1,0 +1,28 @@
+/* Archivo extra no tenemos que usar en el proyecto, solo para cumplir la práctica */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: gray;
+}
+
+h2, h3, h4 {
+    font-weight: bold;
+}
+
+div {
+    border: solid 1px;
+}
+
+header {
+    background-color: green;
+}
+
+footer {
+    background-color: yellow;
+}
