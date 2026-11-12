@@ -1,0 +1,37 @@
+HISTÓRICO DE TAREAS
+
+Grupo: GRUPO2DAW26
+
+Repositorio GitHub: https://github.com/enriquecorrales/GRUPO2DAW26
+
+
+1. TAREAS DE ENRIQUE 
+
+- Creación del repositorio público GRUPO2DAW26 en GitHub.
+- Inicialización de Git en local (git init) y vinculación con el repositorio remoto.
+- Añadidos los otros dos integrantes como colaboradores del repositorio.
+- Subida de archivos de la vista (app/templates) y del front-end (web/css, web/js, web/images).
+- Creación de archivos extras no usados en el proyecto, web/css/extra.css, web/js/extra.js y dos imagenes sueltas en web/images.
+- Recogida de las valoraciones de los integrantes en valoraciones.txt.
+
+2. TAREAS DE PABLO
+
+- Subida del archivo app/Model.php al repositorio.
+- Creación de la base de datos en alwaysdata: pabloruiz_alimentos22026.
+- Ejecución del SQL de creación de la tabla "alimentos".
+- Despliegue en el hosting por SSH con comandos Git (clonado del repositorio en lacarpeta del proyecto).
+- Subida de instalación.txt con los comandos SSH y Git utilizados.
+- Entrega de los datos de conexión a la base de datos a Manuel.
+
+
+3. TAREAS DE MANUEL
+
+- Subida de web/index.php, app/Controller.php y app/Config.php al repositorio.
+- Revisión de la estructura MVC.
+- Modificación de app/Config.php con los datos de conexión a la base de datos proporcionados por Pablo (servidor, nombre de la base de datos, usuario y contraseña).
+- Aviso a Pablo de que Config.php ya estaba actualizado en GitHub para que hiciera el git pull definitivo en el hosting.
+- Comprobación, una vez desplegado, de que la aplicación carga y de que permite consultar y dar de alta alimentos.
+- Redacción de este archivo (histórico.txt)
+
+URL DEL PROYECTO DESPLEGADO:
+https://pabloruiz.alwaysdata.net/
