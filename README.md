@@ -6,8 +6,4 @@ Compuesta por:
 
 - Pablo Ruiz Salado.
 - Manuel Francisco López Iñigo.
-- Enrique Corrales Asquit
-
-Credenciales usuario BBDD:
-pabloruiz_alimentos
-sh6!E!MWVUxrh6y
+- Enrique Corrales Asquit.
