@@ -9,6 +9,10 @@ En general, me ha servido para ganar más confianza a la hora de trabajar con un
 
 Manuel Francisco López Iñigo: 
 
+Con esta práctica he aprendido cómo funciona la estructura MVC y la comunicación entre el modelo, la vista y el controlador. 
+También he aprendido a configurar la conexión de PHP con una base de datos MySQL mediante el archivo Config.php. 
+Además, he mejorado mis conocimientos sobre Git y GitHub trabajando en equipo. 
+Por último, he aprendido los pasos necesarios para desplegar una aplicación web en un hosting como Alwaysdata.
 
  
 Enrique Corrales Asquit:
