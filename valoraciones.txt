@@ -1,15 +1,17 @@
 VALORACIONES DE LA PRÁCTICA  
 
-Integrante 1 (Pablo Ruiz Salado):   
+Pablo Ruiz Salado:   
 
 Esta práctica me ha servido para aprender mejor cómo desplegar una aplicación web en un hosting compartido, cómo trabajar con Git y GitHub y cómo conectar una aplicación PHP con una base de datos.
 En la práctica anterior que realicé con Alwaysdata no tuve muy buenos resultados y me quedaron bastantes dudas. 
 Sin embargo, esta práctica me ha ayudado a entender mejor cómo funciona un hosting compartido, cómo organizar los archivos del proyecto y cómo realizar el despliegue mediante SSH y Git.
 En general, me ha servido para ganar más confianza a la hora de trabajar con un hosting y entender mejor los pasos necesarios para publicar una aplicación web.
 
-Integrante 2 (Manuel Francisco López Iñigo): 
+Manuel Francisco López Iñigo: 
+
+
  
-Integrante 3 (Enrique Corrales Asquit):
+Enrique Corrales Asquit:
 
 Me ha parecido una práctica bastante útil porque he trabajado con Git y GitHub de forma colaborativa, algo que hasta ahora había hecho sobre todo en solitario.
 Lo más importante que he aprendido es que cada integrante debe subir solo su parte con su propio usuario y que hay que coordinarse bien, haciendo git pull antes de cada push, para evitar conflictos. 
